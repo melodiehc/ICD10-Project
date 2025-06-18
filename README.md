@@ -10,7 +10,9 @@ The ICD-10 Auto-Suggester uses machine learning and NLP techniques to extract re
 
 ## How it Works
 Input : A clinical note written by a healthcare provider
+
 Preprocessing: Cleans the text using natural language processing, converts the text into numerical features using TF-IDF vectorization (TF-IDF: Term Frequency-Inverse Document Frequency is a statistical method used in natural language processing and information retrieval to evaluate the importance of a word in a document)
+
 Model: Train a multi label classifier to map clean text
 Output: A list of predicted ICD-10 codes relevant to the clinical note
 
