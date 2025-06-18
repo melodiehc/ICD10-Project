@@ -1,11 +1,3 @@
-hadm_id,clean_text,icd9_code
-1001,Patient admitted with chest pain and shortness of breath.,['410.9']
-1002,"History of hypertension, prescribed lisinopril.",['401.1']
-1003,Severe abdominal pain likely due to appendicitis.,['540.9']
-1004,Diabetes management with insulin recommended.,['250.0']
-1005,Chronic kidney disease stage 3. Regular dialysis advised.,['585.3']
-1006,"Fractured right femur, surgical repair completed.",['820.0']
-1007,Patient experiencing acute asthma exacerbation.,['493.9']
-1008,"Follow-up for congestive heart failure, fluid retention noted.",['428.0']
-1009,"Hyponatremia and dehydration, IV fluids administered.",['276.1']
-1010,Post-operative care for gallbladder removal.,['575.0']
+version https://git-lfs.github.com/spec/v1
+oid sha256:40cc75ecbcf08cf865cc262a94f5ec1b13b34d3172548272824b18031b4b18cf
+size 707
