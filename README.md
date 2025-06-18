@@ -1,13 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 # ICD10-Project
 This is a simple machine learning model that automatically predicts ICD-10 (international classifcation of diseases) codes based on unstructed clinical notes (for example medical notes, discharge info etc.).
 
-## How it Works
-Input : A clinical note written by a healthcare provider
-Preprocessing: Cleans the text using natural language processing, converts the text into numerical features using TF-IDF vectorization (TF-IDF: Term Frequency-Inverse Document Frequency is a statistical method used in natural language processing and information retrieval to evaluate the importance of a word in a document)
-Model: Train a multi label classifier to map clean text
-Output: A list of predicted ICD-10 codes relevant to the clinical note
+
 =======
 # ICD10-Project
 >>>>>>> d3ad99114f72f2ab2dc30fe31665bd18844e4850
@@ -18,6 +13,12 @@ A Natural Language Processing (NLP) project that predicts ICD-10 codes from unst
 
  ## Project Overview
 The ICD-10 Auto-Suggester uses machine learning and NLP techniques to extract relevant information from clinical notes and match it to appropriate ICD-10 codes. This tool can be integrated into Electronic Health Record (EHR) systems to assist in faster and more accurate medical coding.
+
+## How it Works
+Input : A clinical note written by a healthcare provider
+Preprocessing: Cleans the text using natural language processing, converts the text into numerical features using TF-IDF vectorization (TF-IDF: Term Frequency-Inverse Document Frequency is a statistical method used in natural language processing and information retrieval to evaluate the importance of a word in a document)
+Model: Train a multi label classifier to map clean text
+Output: A list of predicted ICD-10 codes relevant to the clinical note
 
  ## Key Features
 Text preprocessing of clinical notes
@@ -48,6 +49,8 @@ MIMIC-III Dataset (for clinical text and diagnosis codes)
 
 ## How to Run
 Clone the repository
+
+Create an API Key
 
 Install requirements: pip install -r requirements.txt
 
