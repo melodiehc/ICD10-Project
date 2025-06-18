@@ -4,7 +4,6 @@
  ICD-10 Code Auto-Suggester
 A Natural Language Processing (NLP) project that predicts ICD-10 codes from unstructured clinical text. Built to support medical professionals by automatically suggesting diagnosis codes from patient notes, streamlining documentation and improving workflow efficiency.
 
-This is a simple machine learning model that automatically predicts ICD-10 (international classifcation of diseases) codes based on unstructed clinical notes (for example medical notes, discharge info etc.)
 
  ## Project Overview
 The ICD-10 Auto-Suggester uses machine learning and NLP techniques to extract relevant information from clinical notes and match it to appropriate ICD-10 codes. This tool can be integrated into Electronic Health Record (EHR) systems to assist in faster and more accurate medical coding.
